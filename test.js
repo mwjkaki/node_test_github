@@ -8,7 +8,7 @@ console.log('Server running!');
 // リクエストの処理
 function doRequest(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.write('はろう ワールド\n');
+    res.write('hello world\n');
     res.end();
 }
 
